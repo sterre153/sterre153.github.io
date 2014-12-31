@@ -33,9 +33,9 @@ $(function () {
 		"albums": function () {
 			$.getJSON("pictures/index.json", function (r) {
 				setRoute("albums", r, "albums");
-
+				
 				$("div.albumList > div").click(function (event) {
-					routie(r[+event.target.id].title);
+					routie(r[+event.currentTarget.id].title);
 				});
 			});
 		},
