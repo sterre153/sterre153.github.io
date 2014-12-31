@@ -126,6 +126,7 @@ function data(key, value) {
 }
 
 onDataChange("currentImage", function (img) {
+	if(window.matchMedia("only screen and (max-width: 760px)").matches) return;
 	$("div.back").animate({ opacity: 0.5 }, 100, function () {           
 		$(this).css({ "background-image": "url('" + img + "')" });
 		$(this).animate({ opacity: 0.7 }, 400);
