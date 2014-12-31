@@ -126,8 +126,8 @@ function data(key, value) {
 }
 
 onDataChange("currentImage", function (img) {
-	$("div.back").animate({ opacity: 0.8 }, 100, function () {           
+	$("div.back").animate({ opacity: 0.5 }, 100, function () {           
 		$(this).css({ "background-image": "url('" + img + "')" });
-		$(this).animate({ opacity: 1 }, 400);
+		$(this).animate({ opacity: 0.7 }, 400);
 	});
 });
