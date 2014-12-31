@@ -32,6 +32,7 @@ div.lastPhotoContact {
 	
 	background-position: center center;
 	background-size: cover;
+	box-shadow: 0 0 40px -5px #000000;
 }
 
 @media only screen and (max-width: 760px) {
