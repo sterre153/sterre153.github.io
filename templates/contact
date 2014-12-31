@@ -1,0 +1,7 @@
+<div class="contact">
+	e-mail: <a href="mailto:sterre_rooijakers@hotmail.com">sterre_rooijakkers@hotmail.com</a>
+</div>
+
+<div class="lastPhotoContact" style="background-image: url('{{currentImage}}');">
+
+</div>

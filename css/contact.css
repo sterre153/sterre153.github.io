@@ -1,0 +1,41 @@
+div.contact {
+	font-size: 25px;
+	color: white !important;
+	white-space: nowrap;
+	
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	
+	transform: translateY(-50%);
+	width: 50%;
+	height: 50%;
+}
+
+div.contact > a {
+	color: white;
+	transition: .25s color linear;
+}
+
+div.contact > a:hover {
+	color: #f55;
+}
+
+div.lastPhotoContact {
+	position: absolute;
+	right: -4%;
+	top: 50%;
+	
+	transform: translateY(-50%);
+	width: 50%;
+	height: 50%;
+	
+	background-position: center center;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 760px) {
+	div.lastPhotoContact {
+		display: none;
+	}
+}

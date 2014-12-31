@@ -1,0 +1,4 @@
+<div class="featuredPhotos">
+	<div id="currentFeatured"></div>
+	<div id="nextFeatured"></div>
+</div>

@@ -1,0 +1,5 @@
+<div class="photoSlider">
+	{{#each pictures}}
+		<div><img data-lazy="/pictures/{{../title}}/{{title}}"/></div>
+	{{/each}}
+</div>

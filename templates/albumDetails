@@ -1,0 +1,10 @@
+<div class="albumDescription">
+	<h1 style="text-align: center; width: 100%">{{title}}</h1>
+	{{description}}
+</div>
+
+<div class="photoList">
+	{{#each pictures}}
+		<div id="{{@index}}" style="background-image: url('/pictures/{{../title}}/{{title}}')"></div>
+	{{/each}}
+</div>
