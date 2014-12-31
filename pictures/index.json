@@ -1,8 +1,14 @@
 [
 	{
-		"title": "kaas",
-		"friendlyTitle": "Kaas",
-		"date": "28-12-2014",
-		"backImageUrl": "kaas.jpg"
+		"title": "tinadag",
+		"friendlyTitle": "Tinadag 2014",
+		"date": "",
+		"backImageUrl": "tinadag4.jpg"
+	},
+	{
+		"title": "leenstelsel",
+		"friendlyTitle": "Manifestatie tegen leenstelsel",
+		"date": "",
+		"backImageUrl": "leenstelsel.jpg"
 	}
 ]
