@@ -24,8 +24,13 @@ div.albumList > div > div.title {
 	bottom: 0;
 	z-index: 1000;
 	color: white;
+	transition: 1s font-size cubic-bezier(0.23, 1, 0.32, 1);
 	
 	background-color: rgba(0, 0, 0, 0.35);
+}
+
+div.albumList > div:hover > div.title {
+	font-size: 25px;
 }
 
 div.albumList > div > div.albumDate {
