@@ -1,7 +1,7 @@
 <div class="albumList">
 	{{#each this}}
 		<div id="{{@index}}">
-			<div class="title">{{title}}</div>
+			<div class="title">{{friendlyTitle}}</div>
 			<div class="albumDate">{{date}}</div>
 			<div class="back" style="background-image: url('/pictures/{{title}}/{{backImageUrl}}')"></div>
 		</div>

@@ -1,5 +1,5 @@
 <div class="albumDescription">
-	<h1 style="text-align: center; width: 100%">{{title}}</h1>
+	<h1 style="text-align: center; width: 100%">{{friendlyTitle}}</h1>
 	{{description}}
 </div>
 
