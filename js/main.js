@@ -33,9 +33,9 @@ $(function () {
 		"albums": function () {
 			$.getJSON("pictures/index.json", function (r) {
 				setRoute("albums", r, "albums");
-
+				
 				$("div.albumList > div").click(function (event) {
-					routie(r[+event.target.id].title);
+					routie(r[+event.currentTarget.id].title);
 				});
 			});
 		},
@@ -126,8 +126,8 @@ function data(key, value) {
 }
 
 onDataChange("currentImage", function (img) {
-	$("div.back").animate({ opacity: 0.8 }, 100, function () {           
+	$("div.back").animate({ opacity: 0.5 }, 100, function () {           
 		$(this).css({ "background-image": "url('" + img + "')" });
-		$(this).animate({ opacity: 1 }, 400);
+		$(this).animate({ opacity: 0.7 }, 400);
 	});
 });
