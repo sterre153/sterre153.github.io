@@ -9,7 +9,6 @@ div.albumList > div {
 	position: relative;
 	cursor: pointer;
 	height: 50px;
-	margin-bottom: 20px;
 		
 	transition: 1s height cubic-bezier(0.23, 1, 0.32, 1);
 }
