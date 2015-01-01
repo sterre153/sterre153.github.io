@@ -16,7 +16,7 @@ $(function () {
 	
 	if (JSON.stringify(_data) === "{}") // Default data
 		_data = {
-			currentImage: "/pictures/oefenenprinsjesdag/DSC_5031.jpgcrop.jpg "
+			currentImage: "/pictures/oefenenprinsjesdag/DSC_5031.jpgcrop.jpg"
 		};
 	
 	$("div.back").css({ "background-image": "url('" + data("currentImage") + "')" });
