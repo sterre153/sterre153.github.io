@@ -1,14 +1,12 @@
 var _data = {};
-var currentAlbum, currentPhotoId, x;
+var currentAlbum, currentPhotoId, x, content;
 var backgroundChangeTimeout = null;
 
 function setRoute (templateName, context, tabId) {
-	$(".content").empty();
 	$(".nav-tab").removeClass("current");
 	$("a#" + tabId + " > .nav-tab").addClass("current");
 	
-	var html = Handlebars.templates[templateName](context);
-	$(".content").html(html);
+	content.innerHTML = Handlebars.templates[templateName](context);
 }
 
 $(function () {
@@ -19,6 +17,7 @@ $(function () {
 			currentImage: "/pictures/oefenenprinsjesdag/DSC_5031.jpgcrop.jpg"
 		};
 	
+	content = $(".content")[0];
 	$("div.back").css({ "background-image": "url('" + data("currentImage") + "')" });
 	$("body").addClass("loaded");
 	
