@@ -4,7 +4,7 @@ div.contact {
 	white-space: nowrap;
 	
 	position: absolute;
-	left: 15px;
+	left: 5%;
 	top: 50%;
 	
 	transform: translateY(-50%);
