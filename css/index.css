@@ -16,7 +16,7 @@ div.featuredPhotos > div {
 	right: 0;
 	bottom: 0;
 	background-repeat: no-repeat;
-	background-position: left center;
+	background-position: center;
 	background-size: cover;
 }
 
