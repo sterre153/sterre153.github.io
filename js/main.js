@@ -81,24 +81,6 @@ $(function () {
 			});
 		},
 		"*": function () {
-			var current = 1;
-			$.getJSON("/featuredPhotos.json", function (r) {
-				function getPhoto (index) {
-					return "url('" + r[index % r.length] + "')";
-				}
-				$("#currentFeatured").css({ backgroundImage: getPhoto(0) });
-				$("#nextFeatured").css({ backgroundImage: getPhoto(1) });
-				clearInterval(x);
-				x = setInterval(function () {
-					$("#currentFeatured").animate({ opacity: 0 }, 1000, function () {
-						$(this).css({
-							backgroundImage: getPhoto(current),
-							opacity: 1
-						});
-						$("#nextFeatured").css({ backgroundImage: getPhoto(++current) });
-					});
-				}, 6000);
-			});
 			setRoute("index", null, "index");
 		}
 	});
