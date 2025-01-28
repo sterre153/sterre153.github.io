@@ -81,7 +81,6 @@ div.nav-tab.current {
 @media only screen and (max-width: 760px) {
 	body {
 		padding: 0;
-		padding-top: 20px;
 
 		font-size: .7em;
 	}
@@ -89,17 +88,10 @@ div.nav-tab.current {
 	h1 {
 		font-size: 3.5em !important;
 		text-align: left !important;
+
 	}
 	#mail {
 		font-size: 1.5em;
 		text-align: left !important;
-	}
-	
-	div.content {
-		margin-top: 15px;
-	}
-	
-	div.nav-tabs {
-		position: initial;
 	}
 }
