@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "./build.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
