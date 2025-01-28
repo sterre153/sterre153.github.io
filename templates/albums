@@ -1,9 +1,16 @@
 <div class="albumList">
 	{{#each this}}
-		<div id="{{@index}}">
+		<div id="{{@index}}" class="albumBlock">
 			<div class="title">{{friendlyTitle}}</div>
+			<div class="description">{{description}}</div>
 			<div class="albumDate">{{date}}</div>
-			<div class="back" style="background-image: url('/pictures/{{title}}/{{backImageUrl}}')"></div>
+			<div class="pictures">
+				{{#each pictures}}
+					<a href="/pictures/{{../title}}/{{title}}" target="_blank">
+						<img src="/pictures/{{../title}}/{{title}}"/>
+					</a>
+				{{/each}}
+			</div>
 		</div>
 	{{/each}}
 </div>

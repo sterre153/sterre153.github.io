@@ -1,33 +1,121 @@
 [
-	{
-		"title": "tinadag",
-		"friendlyTitle": "Tinadag 2014",
-		"date": "",
-		"backImageUrl": "tinadag4.jpg"
-	},
-	{
-		"title": "leenstelsel",
-		"friendlyTitle": "Manifestatie tegen leenstelsel",
-		"date": "",
-		"backImageUrl": "leenstelsel.jpg"
-	},
-		{
-		"title": "oefenenprinsjesdag",
-		"friendlyTitle": "Oefenen voor prinsjesdag",
-		"date": "",
-		"backImageUrl": "DSC_5031.jpgcrop.jpg"
-	},
-	{
-		"title": "nietalleen",
-		"friendlyTitle": "Niet alleen",
-		"date": "",
-		"backImageUrl": "5kunstbende.jpg"
-	},
-	{
-		"title": "natuur",
-		"friendlyTitle": "Natuur",
-		"date": "",
-		"backImageUrl": "DSC_6400.jpg"
-	}
-
+  {
+    "title": "leenstelsel",
+    "friendlyTitle": "Manifestatie tegen leenstelsel",
+    "description": "Den Haag 2014",
+    "pictures": [
+      {
+        "title": "leenstelsel.jpg"
+      },
+      {
+        "title": "leenstelsel2.jpg"
+      },
+      {
+        "title": "leenstelsel3.jpg"
+      },
+      {
+        "title": "leenstelsel4.jpg"
+      },
+      {
+        "title": "leenstelsel5.jpg"
+      },
+      {
+        "title": "leenstelsel6.jpg"
+      }
+    ]
+  },
+  {
+    "title": "natuur",
+    "friendlyTitle": "Natuur",
+    "description": "",
+    "pictures": [
+      {
+        "title": "DSC_0001.jpg"
+      },
+      {
+        "title": "DSC_0039.jpg"
+      },
+      {
+        "title": "DSC_0082.jpg"
+      },
+      {
+        "title": "DSC_6400.jpg"
+      },
+      {
+        "title": "DSC_6427.tifcrpp.jpg"
+      },
+      {
+        "title": "DSC_9736.jpg"
+      },
+      {
+        "title": "DSC_9973.jpg"
+      },
+      {
+        "title": "DSC_6752.JPG"
+      }
+    ]
+  },
+  {
+    "title": "nietalleen",
+    "friendlyTitle": "Niet alleen",
+    "description": "Finalist Kunstbende 2013\nWassenaar",
+    "pictures": [
+      {
+        "title": "1kunstbende.jpg"
+      },
+      {
+        "title": "2kunstbende.jpg"
+      },
+      {
+        "title": "3kunstbende.jpg"
+      },
+      {
+        "title": "4kunstbende.jpg"
+      },
+      {
+        "title": "5kunstbende.jpg"
+      }
+    ]
+  },
+  {
+    "title": "oefenenprinsjesdag",
+    "friendlyTitle": "Oefenen voor prinsjesdag",
+    "description": "Scheveningen 2014",
+    "pictures": [
+      {
+        "title": "DSC_5001.jpg"
+      },
+      {
+        "title": "DSC_5030.jpg"
+      },
+      {
+        "title": "DSC_5031.jpgcrop.jpg"
+      },
+      {
+        "title": "DSC_5067.jpg"
+      }
+    ]
+  },
+  {
+    "title": "tinadag",
+    "friendlyTitle": "Tinadag 2014",
+    "description": "",
+    "pictures": [
+      {
+        "title": "tinadag.jpg"
+      },
+      {
+        "title": "tinadag1.jpg"
+      },
+      {
+        "title": "tinadag2.jpg"
+      },
+      {
+        "title": "tinadag3.jpg"
+      },
+      {
+        "title": "tinadag4.jpg"
+      }
+    ]
+  }
 ]

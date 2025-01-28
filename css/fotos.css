@@ -1,123 +1,59 @@
-div.albumList {
-	margin-left: auto;
-	margin-right: auto;
-	
-	max-width: 900px;
+.title {
+	font-size: 4em;
 }
 
-div.albumList > div {
-	position: relative;
-	cursor: pointer;
-	height: 50px;
-		
-	transition: 1s height cubic-bezier(0.23, 1, 0.32, 1);
+.description {
+	font-size: 1.2em;
+	font-family: sans-serif;
 }
 
-div.albumList > div:hover {
-	height: 110px;
+.pictures {
+	padding-top: 20px;
+	height: 500px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	display: flex;
+	gap: 40px;
 }
 
-div.albumList > div > div.title {
-	padding: 3px;
-	position: absolute;
-	left: 3px;
-	bottom: 0;
-	z-index: 1000;
-	color: white;
-	transition: 1s font-size cubic-bezier(0.23, 1, 0.32, 1);
-	
-	background-color: rgba(0, 0, 0, 0.35);
+.pictures img {
+	height: 100%;
 }
 
-div.albumList > div:hover > div.title {
-	font-size: 25px;
+.back {
+	opacity: 0 !important;!i;!;
 }
 
-div.albumList > div > div.albumDate {
-	
+body {
+	background-color: white !important;!i;!;
 }
 
-div.albumList > div > div.back {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	background-size: cover;
-	background-position: center;
+h1 {
+	color: black;
+	text-align: right;
+	width: 100%;
+	font-size: 3em;
 }
 
-div.photoList {
-	position: absolute;
-	left: 0;
-	top: 140px;
-	bottom: 0;
-	width: calc(100% - 250px);
-	margin-left: 15px;
+#mail {
+	display: block;
+	color: black;
+	text-align: right;
+	width: 100%;
+	text-decoration: none;
+}
+#mail:hover {
+	text-decoration: underline;
 }
 
-div.photoList > div {
-	width: 250px;
-	height: 250px;
-	background-position: center center;
-	background-size: cover;
-	margin: 10px;
-	cursor: pointer;
-	display: inline-block;
+.nav-tab {
+	color: black !important;!i;!;
 }
 
-div.albumDescription {
-	width: 50%;
-	max-width: 200px;
-	color: white;
-	position: absolute;
-	top: 140px;
-	bottom: 40px;
-	right: 0;
-	padding: 10px;
-	text-align: left;
-	
-	background-color: rgba(0, 0, 0, .1);
+hr {
+	border-bottom: 2px black solid !important;!i;!;
 }
 
-div.photoSlider {
-	position: absolute;
-	left: 30px;
-	right: 30px;
-	top: 140px;
-	bottom: 40px;
-}
-
-div.photoSlider img {
-	width: auto;
-	height: calc(100vh - 150px);
-	margin-left: auto;
-	margin-right: auto;
-}
-
-@media only screen and (max-width: 760px) {
-	div.photoList {
-		position: relative;
-		left: initial;
-		top: initial;
-		bottom: initial;
-		width: 100%;
-		margin-left: 0;
-	}
-	
-	div.photoList > div {
-		width: 100%;
-		height: 150px;
-		margin: 0;
-		margin-top: 10px;
-	}
-	
-	div.albumDescription {
-		position: relative;
-		max-width: none;
-		width: 100%;
-		top: initial;
-		bottom: initial;
-		right: initial;
-	}
+.albumBlock {
+	margin-bottom: 75px;
 }
